@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: test   # 👈 This line tells K8s to create it inside 'dev' namespace
+  namespace: test   # 👈 This line tells K8s to create it inside 'test' namespace
 spec:
   replicas: 2
   selector:
